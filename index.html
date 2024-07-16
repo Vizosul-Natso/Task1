@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello-Tech</title>
+    <link rel="icon" type="image/png" href="https://github.com/Vizosul-Natso/SourceFile/blob/main/ht_logo.png?raw=true" />
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #000000;
+        background-image: url("https://github.com/Vizosul-Natso/SourceFile/blob/main/binary%20wall.jpg?raw=true");
+      }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100vw;
+        padding: 0.5rem 2rem;
+        background-color: rgb(0 0 0 / 80%);
+      }
+      .logo img {
+        cursor: pointer;
+        height: 2rem;
+      }
+      .nav-links {
+        display: inline-block;
+        list-style: none;
+      }
+      .nav-links li {
+        display: inline-block;
+        padding: 0 1.5rem;
+      }
+      .nav-links li a {
+        cursor: default;
+        font-family: sans-serif;
+        font-size: 1.2rem;
+        font-weight: 300;
+        color: rgb(6, 212, 34);
+        text-decoration: none;
+        border-bottom: 3px solid transparent;
+      }
+      nav a:hover,
+      nav a:focus {
+        cursor: pointer;
+        filter: brightness(150%);
+        border-bottom: 3px solid;
+      }
+      nav button {
+        padding: 0.3rem 0.8rem;
+        font-family: sans-serif;
+        font-size: 1.2rem;
+        font-weight: 400;
+        border-radius: 0.5rem;
+        color: rgb(0, 0, 0);
+        border: none;
+        background-color: rgb(6, 212, 34);
+      }
+      .heading {
+        padding: 0 1rem;
+        margin-top: 2rem;
+        display: inline-block;
+        box-shadow: 0 0 4px 6px rgb(0, 0, 0);
+        background-color: rgb(0 0 0 / 60%);
+      }
+      #welcome {
+        background-color: rgb(0 0 0 / 50%);
+        text-align: center;
+        font-family: monospace;
+        font-size: 2rem;
+        font-weight: 500;
+        color: rgb(6, 212, 34);
+        letter-spacing: 0.4rem;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typing 2s steps(10);
+      }
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+      }
+      .content-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 3rem;
+        padding: 2rem;
+        width: 84vw;
+        box-shadow: 0 0 5px 8px rgb(0, 0, 0);
+        background-color: rgb(0 0 0 / 86%);
+        color: rgb(6, 212, 34);
+      }
+      .content-container p {
+        margin-top: 1rem;
+        font-size: 1.4rem;
+        font-weight: 450;
+      }
+      .btn-container {
+        display: flex;
+        margin: 2rem 0;
+        width: 20rem;
+        justify-content: space-between;
+      }
+      .btn-container button {
+        padding: 0.3rem 1rem;
+        font-family: sans-serif;
+        font-size: 1.2rem;
+        font-weight: 400;
+        border-radius: 0.8rem;
+      }
+      #know {
+        color: rgb(0, 0, 0);
+        border: 3px solid rgb(6, 212, 34);
+        background-color: rgb(6, 212, 34);
+      }
+      #know:hover {
+        color: rgb(6, 212, 34);
+        border: 3px solid rgb(6, 212, 34);
+        background-color: transparent;
+      }
+      #get:hover {
+        color: rgb(0, 0, 0);
+        border: 3px solid rgb(6, 212, 34);
+        background-color: rgb(6, 212, 34);
+      }
+      #get {
+        color: rgb(6, 212, 34);
+        border-radius: 0.5rem;
+        border: 3px solid rgb(6, 212, 34);
+        background-color: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="https://github.com/Vizosul-Natso/SourceFile/blob/main/ht_logo.png?raw=true" alt="logo" /></div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#resume">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+        </ul>
+        <a href=""><button id="contact">Contact</button></a>
+      </nav>
+    </header>
+    <div class="heading"><h1 id="welcome">Hello-Tech</h1></div>
+    <div class="content-container">
+      <h1>Innovative Solutions for a Digital World</h1>
+      <p>
+        Welcome to Hello-Tech, where cutting-edge technology meets unparalleled
+        expertise. We specialize in delivering high-quality software products
+        designed to drive your business forward. Our dedicated team of
+        professionals harnesses the power of the latest technologies to create
+        custom solutions tailored to your unique needs. From intuitive mobile
+        applications to robust enterprise systems, we are committed to
+        transforming your vision into reality. Partner with us to unlock new
+        possibilities and achieve your digital goals.
+      </p>
+      <div class="btn-container">
+        <a href=""><button id="know">Know More</button></a>
+        <a href=""><button id="get">Get Started</button></a>
+      </div>
+    </div>
+
+    <!-- script -->
+    <script src="/script.js"></script>
+  </body>
+</html>
+<style></style>
